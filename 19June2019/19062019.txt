@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Scope</h2>
+<p>A GLOBAL variable can be accessed from any script or function.</p>
+<p id="demo"></p>
+<p id="demo2"></p>
+<script>
+"use strict";
+var student = { 
+firstName :"Nayan",
+lastName :"Lakhwani",
+classs : "X",
+fullName : function (){
+return this.firstName+" "+this.lastName;
+}
+}
+document.getElementById("demo").innerHTML = "The full name is "+ student.fullName();
+
+var simpleInterest = function (principle,rate,time){
+
+return (principle*rate*time)/100; 
+
+}
+document.getElementById("demo2").innerHTML = "The Simple Interest is "+ simpleInterest(12,3,4);
+
+
+</script></body></html>
