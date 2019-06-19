@@ -1,2 +1,0 @@
-# js
-daily js assignments
