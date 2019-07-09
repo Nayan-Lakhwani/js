@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>add</title>
+
+    </head>
+    <body>
+            
+        
+        <div class="dropdown">Filter By Subject 
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                  
+                </button>
+                <div class="dropdown-menu">
+                  
+                </div>
+              </div><br></br>
+        
+            <div class="container">
+                                
+                    <table id = "table1" class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th>Name</th>
+                          <th>Subject</th>
+                          <th>Marks</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody id = "body">
+                        
+                      </tbody>
+                    </table>
+                    <button id = "1">Sort By Name</button>
+                    <button id = "2">Sort By Marks</button>
+                    <span>Total Records =<h6 id ="records2"></h6>  </span>
+                    
+                    <br></br>
+                  </div>
+
+                  <table class = "full" >
+                     
+                      Insert Student Data  <br></br>   
+                        <tr>
+                            <td>Insert Name</td>
+                            <td colspan="3"><input type="text" id="result1"/></td>
+                            
+                        </tr>
+                        <tr>
+                                <td>Insert Subject</td>
+                                <td colspan="3"><input type="text" id="result2"/></td>
+                                
+                            </tr>
+                            <tr>
+                                    <td>Insert Marks</td>
+                                    <td colspan="3"><input type="number" id="result3"/></td>
+                                    
+                                </tr>
+                                 </table><br></br>
+                                 <button id = "addbutton">Add</button>
+                                
+                                 <script src="add.js"></script>     
+    </body>
+
+</html>

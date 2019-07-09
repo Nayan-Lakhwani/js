@@ -1,0 +1,203 @@
+/* This is a reset css
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*The above code is a reset css*/
+
+body
+{
+  margin: 0;
+  padding: 0;
+  background: url(https://i.redd.it/ihoxdlxnodpy.jpg);
+  background-size:cover;
+  font-family:sans-serif;
+  
+  
+}
+
+.Menu li a{
+	text-decoration:none;
+	color:white;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	display: block;
+	padding:0px 25px;
+	font-size:14px;
+	line-height:30px;
+	position:relative;
+	
+	
+}
+
+.Menu li{
+	list-style:none;
+	display:inline-block;
+	
+	
+}
+
+nav{
+	position: relative;
+	padding: 10px 10px 10px 0px;
+	background:black;
+	text-align: right;
+	
+	
+	
+}
+
+.logo{
+	width:15%;
+	float:left;
+	text-transform:uppercase;
+	color: white;
+	font-size:23px;
+	text-align:left;
+	padding-left: 1%;
+	text-decoration:bold;
+	font-weight:bold;
+	font-family:material;
+	
+	
+	
+}
+
+
+.Menu li a:hover{
+	cursor:pointer;
+	background-color:orange;
+	
+}
+
+
+footer{
+	position:absolute;
+	left:74%;
+	top:100%;
+	text-decoration:underline;
+	font-size:90%;
+	text-align:right;
+	color:white;
+	
+}
+
+.boxed{
+	border:1px solid transparent;
+	width: 200px;
+	height:200px;
+	float:right;
+	margin: 40px;
+	color:white;
+	text-decoration:bold;
+	font-weight:bold;
+	
+	
+	
+}
+
+.boxed img{
+	width:200px;
+	height:200px;
+	
+	
+}
+.boxed:hover{
+	cursor:pointer;
+}
+
+.boxed1{
+	border:1px solid transparent;
+	width: 200px;
+	height:200px;
+	float:right;
+	margin:40px;
+	margin-top:300px;
+	color:white;
+	text-decoration:bold;
+	text-align:center;
+	font-weight:bold;
+	
+	
+}
+
+.boxed1 img{
+	width:200px;
+	height:200px;
+}
+.boxed1:hover{
+	cursor:pointer;
+}
+.boxed2{
+	border:1px solid transparent;
+	width: 200px;
+	height:200px;
+	float:right;
+	margin:40px;
+	color:white;
+	font-weight:bold;
+	text-decoration:bold;
+	
+	
+	
+}
+.boxed2 img{
+	width:200px;
+	height:200px;
+}
+.boxed2:hover{
+	cursor:pointer;
+}
+nav img {
+	
+	width:100px;
+	height:100px;
+	float:right;
+	
+	
+}
+
+nav img:hover{
+	
+	cursor:pointer;
+	
+}

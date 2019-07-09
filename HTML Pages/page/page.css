@@ -1,0 +1,195 @@
+body {
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEUAAACnej3aAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=");
+
+}
+
+#box1 {
+    height: 500px;
+    width: 500px;
+    border: dashed;
+    border-color: white;
+    margin: 50px 5px 5px 5px;
+    float: left;
+    color: white;
+    text-align: center;
+    text-decoration: bold;
+    font-size: 200%;
+    text-decoration: underline;
+    overflow-y: scroll;
+
+
+
+}
+
+#box2 {
+    height: 500px;
+    width: 500px;
+    border: solid;
+    border-color: grey;
+    margin: 50px 5px 5px 5px;
+    float: right;
+    background-color: black;
+    font-size: 200%;
+    text-align: center;
+    text-decoration: bold;
+    color: white;
+    text-decoration: underline;
+
+}
+
+#button1 {
+    width: 200px;
+    height: 100px;
+    background: url("p1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: none;
+    margin: 5px;
+    float: left;
+    margin-left: 35px;
+}
+
+#button2 {
+    width: 200px;
+    height: 100px;
+    background: url("p2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    margin: 5px;
+    float: right;
+    margin-right: 35px;
+
+}
+
+#button3 {
+    width: 200px;
+    height: 100px;
+    background: url("p3.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    margin: 5px;
+    float: left;
+    margin-left: 35px;
+}
+
+#button4 {
+    width: 200px;
+    height: 100px;
+    background: url("p4.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    margin: 5px;
+    float: right;
+    margin-right: 35px;
+}
+
+
+#button5 {
+    width: 200px;
+    height: 100px;
+    background: url("p5.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    margin: 5px;
+    float: left;
+    margin-left: 35px;
+}
+
+#button6 {
+    width: 200px;
+    height: 100px;
+    background: url("p6.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    margin: 5px;
+    float: right;
+    margin-right: 35px;
+}
+
+#button7 {
+    width: 400px;
+    height: 100px;
+    background: url("p7.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    margin: 5px;
+    float: left;
+    margin-left: 45px;
+    margin-right: 45px;
+
+}
+
+#button1:hover {
+    cursor: pointer;
+}
+
+#button2:hover {
+    cursor: pointer;
+}
+
+#button3:hover {
+    cursor: pointer;
+}
+
+#button4:hover {
+    cursor: pointer;
+}
+
+#button5:hover {
+    cursor: pointer;
+}
+
+#button6:hover {
+    cursor: pointer;
+}
+
+#button7:hover {
+    cursor: pointer;
+}
+
+#column-1 {
+    height: 10%;
+    width: 30%;
+    border: solid 1px white;
+    margin: 2px 2px 2px 2px;
+    position: relative;
+    float: left;
+
+
+}
+
+#column-2 {
+    height: 10%;
+    width: 13%;
+    border: solid 1px white;
+    margin: 2px 2px 2px 2px;
+    position: relative;
+    float: left;
+
+}
+
+#column-3 {
+    height: 10%;
+    width: 30%;
+    border: solid 1px white;
+    margin: 2px 2px 2px 2px;
+    position: relative;
+    float: left;
+
+}
+
+#column-4 {
+    height: 10%;
+    width: 50%;
+    border: solid 1px white;
+    margin: 2px 2px 2px 2px;
+    position: relative;
+    float: left;
+
+}
